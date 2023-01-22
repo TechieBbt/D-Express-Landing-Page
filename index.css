@@ -1,0 +1,448 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sectionOne{
+    background-image: url(./Images/hero\ background.svg);
+    background-repeat: no-repeat;
+    height: 96vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+.logo{
+    padding-top: 10px;
+}
+.headerList ul{
+    list-style-type: none;
+    display: flex;
+    color: #FFFFFF;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.headerList li{
+    padding-right: 30px;
+    cursor: pointer;
+}
+.headerButton button{
+    background: #1BC768;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    padding: 10px 38px;
+    gap: 10px;
+    cursor: pointer;
+}
+.headerButton button:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.3,1.2);
+    transition: 0.4s;
+}
+.searchBar{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.mysearchbox{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    position: relative;
+}
+.mysearchbox .fa-search{
+    align-self: center;
+    color: #7A7A7A;
+    position: absolute;
+    padding: 10px 20px;
+    margin-right: 15px;
+}
+.search{
+    background: #DEE9FF;
+    flex: 0.66;
+    border: none;
+    outline: none;
+    color: #7A7A7A;
+    font-size: 15px;
+    padding-left: 50px;
+    border-radius: 50px 0px 0px 50px;
+}
+.mysearchbox button{
+    background: #1BC768;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+    letter-spacing: 1;
+    cursor: pointer;
+    border-radius: 0px 50px 50px 0px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.heroImage{
+    margin-top: 22px;
+}
+.text h1{
+    font-family: "Avenir";
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65.57px;
+    color:#FFFFFF;
+}
+.text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.59px;
+    color:#FFFFFF;
+    width: 75%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.locations{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.locations p{
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+.ikeja{
+    background-color: #FFFFFF; 
+}
+.locations .ikeja{
+    color: blue;
+}
+
+.affiliation{
+    text-align: center;
+    padding-top: 60px;
+}
+.affiliation h1{
+    color: #043CAA;
+}
+.partners{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+}
+
+.benefit{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+}
+.benefitHead{
+    text-align: center;
+    color: #043CAA;
+}
+.underBenefit{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.medicine{
+    padding-top: 15%;
+}
+.medicine h2{
+    color: #043CAA;
+    font-size: 26px;
+    line-height: 32px;
+    width: 268px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.medicine ul{
+    list-style: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.medicine li{
+    padding: 10px;
+}
+.medicine li img{
+    margin-left: -7px;
+    margin-right: 10px;
+}  
+.medicine p{
+    border: 1px solid #1BC768;
+    padding: 9px 9px;
+    border-radius: 50px;
+    color: #1BC768;
+    font-size: 20px;
+    width: 65%;
+    text-align: center;
+    cursor: pointer;
+}
+.medicine p img{
+    margin-left: 10px;
+    margin-bottom: -8px;
+}
+.doorstep{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+}
+.door{
+    padding-top: 5%;
+    margin-left: 40px;
+}
+.door h2{
+    color: #043CAA;
+    font-size: 26px;
+    line-height: 32px;
+    width: 60%;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.door ul{
+    list-style: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.door li{
+    padding: 10px;
+}
+.door li img{
+    margin-left: -7px;
+    margin-right: 10px;
+}  
+.door p{
+    border: 1px solid #1BC768;
+    padding: 9px 9px;
+    border-radius: 50px;
+    color: #1BC768;
+    font-size: 20px;
+    width: 65%;
+    text-align: center;
+    cursor: pointer;
+}
+.door p img{
+    margin-left: 10px;
+    margin-bottom: -8px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+}
+.profText{
+    padding-top: 15%;
+}
+.profText h2{
+    color: #043CAA;
+    font-size: 26px;
+    line-height: 32px;
+    width: 60%;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.profText ul{
+    list-style: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.profText li{
+    padding: 10px;
+}
+.profText li img{
+    margin-left: -7px;
+    margin-right: 10px;
+}  
+.profText p{
+    border: 1px solid #1BC768;
+    padding: 9px 3px;
+    border-radius: 50px;
+    color: #1BC768;
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.profText p img{
+    margin-left: 8px;
+    margin-bottom: -8px;
+}
+
+.testimony{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.testimony>img{
+    width: 45%;
+    height: 40%;
+}
+.testimony img{
+    padding-bottom: 10%;
+}
+.clients{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.clientHead h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+.clientHead img{ 
+    margin-left: 30%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.clients p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #7A7A7A;
+    padding-bottom: 10px;
+    width: 76%;
+}
+.clients h4{
+    color: #043CAA;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #043CAA;
+    color: #FFFFFF;
+}
+.sign{
+    padding-top: 5%;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.signup h2{
+    font-size: 25px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.signup p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 60%;
+
+}
+.footmail{
+    margin-left: -10%;
+    margin-top: 10px;
+}
+.footmail p{
+    font-size: 18px;
+}
+.mailInput{
+    width: 180%;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
+}
+.mailInput input{
+    background: #DEE9FF;
+    flex: 0.66;
+    border: none;
+    outline: none;
+    color: #7A7A7A;
+    font-size: 15px;
+    padding-left: 20px;
+    border-radius: 50px 0px 0px 50px;
+}
+.mailInput button{
+    background: #1BC768;
+    border: none;
+    outline: none;
+    padding: 5px 20px 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    letter-spacing: 1;
+    cursor: pointer;
+    border-radius: 0px 50px 50px 0px;
+    align-items: center;
+}
+.mailInput button img{
+    padding-left: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.mailInput button>img{
+    width: 25%;
+    height: 20px;
+}
+.dExpress{
+    padding-top: 7%;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.firstSide{
+    width: 17%;
+    margin-right: 18%;
+    margin-top: -7px;
+}
+.dExpress p{
+    font-size: 18px;
+    line-height: 24.59px;
+    padding-top: 20px;
+}
+.secondSide{
+    margin-right: 10%;
+}
+.secondSide p{
+    cursor: pointer;
+}
+.dExpress h4{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+}
+.thirdSide{
+    margin-right: 15%;
+}
+.thirdSide p{
+    cursor: pointer;
+}
+.fourthSide p{
+    cursor: pointer;
+}
